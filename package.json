@@ -21,7 +21,7 @@
     "lint-staged": "^15.2.2",
     "prettier": "latest",
     "standard-version": "^9.5.0",
-    "turbo": "latest",
+    "turbo": "^2.4.2",
     "typescript": "^5.3.3"
   },
   "engines": {
@@ -42,5 +42,6 @@
     "*.{md,json}": [
       "prettier -w"
     ]
-  }
+  },
+  "name": "clicker"
 }
