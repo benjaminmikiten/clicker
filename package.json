@@ -9,20 +9,20 @@
     "test": "turbo run test",
     "commit": "cz",
     "clean": "rimraf {apps,packages}/**/{node_modules,dist,.next,.turbo} -g && rimraf node_modules",
-    "prepare": "husky install",
+    "prepare": "husky",
     "release": "standard-version"
   },
   "devDependencies": {
-    "@commitlint/cli": "^18.6.1",
-    "@commitlint/config-conventional": "^18.6.2",
-    "@commitlint/cz-commitlint": "^18.6.1",
-    "commitizen": "^4.3.0",
-    "husky": "8.0.3",
-    "lint-staged": "^15.2.2",
-    "prettier": "latest",
+    "@commitlint/cli": "^19.7.1",
+    "@commitlint/config-conventional": "^19.7.1",
+    "@commitlint/cz-commitlint": "^19.6.1",
+    "commitizen": "^4.3.1",
+    "husky": "9.1.7",
+    "lint-staged": "^15.4.3",
+    "prettier": "^3.5.1",
     "standard-version": "^9.5.0",
     "turbo": "^2.4.2",
-    "typescript": "^5.3.3"
+    "typescript": "^5.7.3"
   },
   "engines": {
     "node": ">=20"
