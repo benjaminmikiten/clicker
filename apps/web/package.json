@@ -1,5 +1,5 @@
 {
-  "name": "@ultimate/new-web",
+  "name": "@clicker/web",
   "private": true,
   "type": "module",
   "scripts": {
@@ -20,8 +20,8 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "@ultimate/eslint-config": "workspace:*",
-    "@ultimate/tsconfig": "workspace:*",
+    "@clicker/eslint-config": "workspace:*",
+    "@clicker/tsconfig": "workspace:*",
     "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.17",
     "clsx": "^2.1.0",
@@ -34,7 +34,7 @@
   "eslintConfig": {
     "root": true,
     "extends": [
-      "@ultimate/eslint-config/next"
+      "@clicker/eslint-config/next"
     ]
   }
 }

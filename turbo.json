@@ -1,6 +1,7 @@
 {
-  "$schema": "https://turbo.build/schema.json",
-  "pipeline": {
+  "$schema": "https://turborepo.org/schema.json",
+  "globalDependencies": [],
+  "pipelines": {
     "dev": {
       "cache": false,
       "persistent": true

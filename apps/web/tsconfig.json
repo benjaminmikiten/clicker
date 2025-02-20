@@ -1,5 +1,5 @@
 {
-  "extends": "@ultimate/tsconfig/nextjs.json",
+  "extends": "@clicker/tsconfig/nextjs.json",
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {

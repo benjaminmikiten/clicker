@@ -1,5 +1,5 @@
 {
-  "name": "@ultimate/tsconfig",
+  "name": "@clicker/tsconfig",
   "private": true,
   "files": [
     "base.json",

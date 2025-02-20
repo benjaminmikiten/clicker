@@ -1,5 +1,5 @@
 {
-  "name": "@ultimate/eslint-config",
+  "name": "@clicker/eslint-config",
   "devDependencies": {
     "@next/eslint-plugin-next": "latest",
     "@typescript-eslint/parser": "^7.0.2",

@@ -1,5 +1,5 @@
 {
-  "extends": "@ultimate/tsconfig/nest.json",
+  "extends": "@clicker/tsconfig/nest.json",
   "compilerOptions": {
     "outDir": "./dist",
     "baseUrl": ".",
