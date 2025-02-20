@@ -1,4 +1,5 @@
 {
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "build": "turbo run build",
@@ -7,16 +8,21 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "test": "turbo run test",
     "clean": "rimraf {apps,packages}/**/{node_modules,dist,.next,.turbo} -g && rimraf node_modules",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "changelog:first": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "release": "standard-version"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.6.1",
     "@commitlint/config-conventional": "^18.6.2",
     "@commitlint/cz-commitlint": "^18.6.1",
     "commitizen": "^4.3.0",
+    "conventional-changelog-cli": "^5.0.0",
     "husky": "8.0.3",
     "lint-staged": "^15.2.2",
     "prettier": "latest",
+    "standard-version": "^9.5.0",
     "turbo": "latest",
     "typescript": "^5.3.3"
   },
